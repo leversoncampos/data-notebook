@@ -15,16 +15,3 @@ Aqui concentro exercícios, experimentos e anotações em código enquanto aprof
 - Praticar ferramentas de forma estruturada  
 - Manter um histórico organizado de aprendizado técnico  
 
----
-
-## Estrutura Geral
-
-```text
-analise_de_dados/
-├── python/
-│   ├── pandas/
-│   ├── seaborn/
-│   └── plotly/
-├── sql/
-├── power_bi/
-└── cases_praticos/
