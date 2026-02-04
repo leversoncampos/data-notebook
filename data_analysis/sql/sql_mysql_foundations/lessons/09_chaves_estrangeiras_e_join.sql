@@ -17,3 +17,8 @@ WHERE id = '1';
 /* Integridade Referencial
 DELETE FROM cursos
 WHERE idcurso = '7';   -- Erro de Foreign Key*/ 
+
+SELECT gafanhotos.nome, cursos.nome, cursos.ano
+FROM gafanhotos JOIN cursos
+ON cursos.idcurso = gafanhotos.curso_preferido
+ORDER BY gafanhotos.nome;
